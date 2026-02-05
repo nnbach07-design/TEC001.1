@@ -1,9 +1,9 @@
 def invisible3():
-    i = 1
-    while i <= 1000:
-        if i % 3 == 0:
-            print(i)
-        i += 1
+    a = 1
+    while a <= 1000:
+        if a % 3 == 0:
+            print(a)
+        a += 1
 invisible3()
 
 def inch_to_cm():
@@ -18,10 +18,10 @@ def min_max_numbers():
     numbers = []
 
     while True:
-        s = input("number: ")
-        if s == "":
+        b = input("number: ")
+        if b == "":
             break
-        numbers.append(float(s))
+        numbers.append(float(b))
 
     print("smallest:", min(numbers))
     print("largest:", max(numbers))
@@ -60,13 +60,13 @@ def login():
 login()
 
 def middle_char():
-    s = input("enter a string: ")
-    n = len(s)
+    c = input("enter a string: ")
+    d = len(c)
 
-    if n % 2 == 0:
-        print(s[n//2 - 1 : n//2 + 1])
+    if d % 2 == 0:
+        print(c[d//2 - 1 : d//2 + 1])
     else:
-        print(s[n//2])
+        print(c[d//2])
 middle_char()
 
 def acronym():
